@@ -13,8 +13,8 @@
 	</tr>
 	<tr>
 		<td width = "20%" align = "center">
-			<a href = "category/doCategory.jsp"" target = "bb">category管理</a><br>
-			<a href = "http://www.taobao.com" target = "bb">provider管理</a><br>
+			<a href = "category/doCategory.jsp" target = "bb">category管理</a><br>
+			<a href = "provider/doProvider.jsp" target = "bb">provider管理</a><br>
 			<a href = "http://www.baidu.com" target = "bb">product管理</a><br>
 		</td>
 		<td><iframe src = "welcom.jsp" name = "bb" width = "100%" height = "100%"></iframe></td>
