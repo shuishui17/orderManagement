@@ -50,6 +50,30 @@ public class Product {
 	public void setCategoryId(int categoryId) {
 		this.categoryId = categoryId;
 	}
+		
+	public Product( String productName, double incomePrice,
+			int providerId, int quantity, double salePrice, int categoryId) {
+		super();
+		this.productName = productName;
+		this.incomePrice = incomePrice;
+		this.providerId = providerId;
+		this.quantity = quantity;
+		this.salePrice = salePrice;
+		this.categoryId = categoryId;
+	}
 	
-	
+	public Product(int productId, String productName, double incomePrice,
+			int providerId, int quantity, double salePrice, int categoryId) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.incomePrice = incomePrice;
+		this.providerId = providerId;
+		this.quantity = quantity;
+		this.salePrice = salePrice;
+		this.categoryId = categoryId;
+	}
+	public Product(){
+		super();
+	}
 }
